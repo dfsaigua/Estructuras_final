@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jnlp spec="1.0" xmlns:jfx="http://javafx.com" href="Segundo_Parcial22.jnlp">
+  <information>
+    <title>Segundo_Parcial22</title>
+    <vendor>oscar</vendor>
+    <description>null</description>
+    <offline-allowed/>
+  </information>
+  <resources>
+    <j2se version="1.6+" href="http://java.sun.com/products/autodl/j2se"/>
+    <jar href="Segundo_Parcial22.jar" size="61325781" download="eager" />
+    <jar href="lib\AbsoluteLayout.jar" size="2903" download="eager" />
+    <jar href="lib\RSProgressBar.jar" size="2985911" download="eager" />
+    <jar href="lib\beansbinding-1.2.1.jar" size="631289" download="eager" />
+  </resources>
+  <applet-desc  width="800" height="600" main-class="com.javafx.main.NoJavaFXFallback"  name="Segundo_Parcial22" >
+    <param name="requiredFXVersion" value="8.0+"/>
+  </applet-desc>
+  <jfx:javafx-desc  width="800" height="600" main-class="App"  name="Segundo_Parcial22" />
+  <update check="always"/>
+</jnlp>
